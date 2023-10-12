@@ -1993,7 +1993,7 @@ export default {
 
     document.onreadystatechange = () => {
       if (document.readyState == "complete") {
-        $modNameX = null,
+        // $modNameX = null,
           this.isLoaded = true;
           // alert(true)
       }
